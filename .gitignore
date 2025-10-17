@@ -1,0 +1,20 @@
+# Node/React
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.*.local
+*.log
+
+# Python (if you have backend)
+__pycache__/
+*.pyc
+.venv/
+.env/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

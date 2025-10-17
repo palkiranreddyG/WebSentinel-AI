@@ -1,0 +1,58 @@
+.home-container {
+  background: linear-gradient(135deg, #1f005c, #5b0060, #870160, #ac255e, #ca485c, #e16b5c, #f39060);
+  color: white;
+  min-height: 100vh;
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.home-container button {
+  background: linear-gradient(90deg, #6e00ff, #ff007e);
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.home-container button:hover {
+  transform: scale(1.05);
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  max-width: 240px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  transition: transform 0.2s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+}
+
+.feature-box img {
+  width: 200px;
+  margin-bottom: 20px;
+}

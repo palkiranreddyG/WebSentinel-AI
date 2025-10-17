@@ -1,0 +1,28 @@
+.app-container {
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  min-height: 100vh;
+  color: white;
+}
+
+.home-page {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.get-started-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #00c9ff, #92fe9d);
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.get-started-button:hover {
+  transform: scale(1.05);
+}
